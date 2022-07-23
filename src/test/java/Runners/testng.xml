@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="WebAutomation Travelocity Test" >
+    <!-- This parameter will be passed to every test in this suite -->
+    <parameter name="browser" value="Firefox" />
+    <test name="Travelocity Test">
+        <parameter name="departureDate" value="2021-07-20"/>
+        <classes>
+            <class name="tests.TravelocityTests" />
+        </classes>
+    </test>
+</suite>

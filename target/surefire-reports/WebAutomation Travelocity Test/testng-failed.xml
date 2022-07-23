@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WebAutomation Travelocity Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" name="Travelocity Test(failed)" verbose="0">
+    <parameter name="departureDate" value="2021-07-20"/>
+    <classes>
+      <class name="tests.TravelocityTests">
+        <methods>
+          <include name="bookingRoundTripFlightTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.TravelocityTests -->
+    </classes>
+  </test> <!-- Travelocity Test(failed) -->
+</suite> <!-- Failed suite [WebAutomation Travelocity Test] -->

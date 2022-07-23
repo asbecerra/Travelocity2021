@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-09T19:37:20 COT" name="WebAutomation Travelocity Test" finished-at="2021-05-09T19:38:52 COT" duration-ms="91667">
+    <groups>
+    </groups>
+    <test started-at="2021-05-09T19:37:20 COT" name="Travelocity Test" finished-at="2021-05-09T19:38:52 COT" duration-ms="91667">
+      <class name="tests.TravelocityTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.TravelocityTests@176d53b2]" started-at="2021-05-09T19:37:20 COT" name="setUp" finished-at="2021-05-09T19:37:32 COT" duration-ms="12103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bookingRoundTripFlightTest(java.lang.String)[pri:0, instance:tests.TravelocityTests@176d53b2]" started-at="2021-05-09T19:37:32 COT" name="bookingRoundTripFlightTest" finished-at="2021-05-09T19:38:50 COT" duration-ms="78143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2021-07-20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingRoundTripFlightTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TravelocityTests@176d53b2]" started-at="2021-05-09T19:38:50 COT" name="tearDown" finished-at="2021-05-09T19:38:52 COT" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TravelocityTests -->
+    </test> <!-- Travelocity Test -->
+  </suite> <!-- WebAutomation Travelocity Test -->
+</testng-results>
